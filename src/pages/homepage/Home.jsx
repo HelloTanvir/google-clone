@@ -3,8 +3,8 @@ import InputBox from '../../components/inputBox/InputBox';
 import Classes from './Home.module.css';
 
 const Home = () => (
-    <div className={Classes.home}>
-        <img src={logo} alt="Goole Logo" />
+    <div className={Classes.homePage}>
+        <img src={logo} alt="Goole Logo" className={Classes.logo} />
         <InputBox />
     </div>
 );

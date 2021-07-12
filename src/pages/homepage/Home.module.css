@@ -1,0 +1,20 @@
+.homePage {
+  height: 100vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  display: grid;
+  align-content: center;
+  place-items: center;
+  /* place-content: center; */
+  /* grid-row-gap: 20px; */
+  grid-auto-rows: max-content;
+}
+
+.logo {
+  height: 100%;
+  max-height: 120px;
+  object-fit: contain;
+  object-position: center bottom;
+}
