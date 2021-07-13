@@ -1,7 +1,8 @@
 .inputBoxWrapper {
-  margin: 20px 20px;
+  padding: 20px;
   width: 100%;
   max-width: 584px;
+  min-width: 0;
 }
 
 .inputBox {
@@ -30,4 +31,5 @@
   color: #222;
   margin: 0 13px;
   height: 34px;
+  min-width: 0;
 }
